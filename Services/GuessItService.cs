@@ -26,13 +26,13 @@ namespace SpacekKMCEightToTen.Services
 
                 if(convertedNum == easy)
                 {
-                    return "Thats correct! You guessed it!";
+                    return $"Thats correct! You guessed it!\nThe number was {easy}!";
                 }else if(convertedNum > easy)
                 { 
-                    return "Woops! Looks like you guessed higher then you should have!.";
+                    return $"Woops! Looks like you guessed higher then you should have!\nThe number was {easy}.";
                 }else if(convertedNum < easy)
                 {  
-                    return "Oh dear! Looks like you guessed lower then you should have!";
+                    return $"Oh dear! Looks like you guessed lower then you should have!\nThe number was {easy}.";
                 }else
                 {
                     return "Honestly I'm impressed you got here.";
@@ -60,13 +60,13 @@ namespace SpacekKMCEightToTen.Services
 
                 if(convertedNum == medium)
                 {
-                    return "Thats correct! You guessed it!";
+                    return $"Thats correct! You guessed it!\nThe number was {medium}!";
                 }else if(convertedNum > medium)
                 { 
-                    return "Woops! Looks like you guessed higher then you should have!.";
+                    return $"Woops! Looks like you guessed higher then you should have!\nThe number was {medium}.";
                 }else if(convertedNum < medium)
                 {  
-                    return "Oh dear! Looks like you guessed lower then you should have!";
+                    return $"Oh dear! Looks like you guessed lower then you should have!\nThe number was {medium}.";
                 }else
                 {
                     return "Honestly I'm impressed you got here.";
@@ -94,13 +94,13 @@ namespace SpacekKMCEightToTen.Services
 
                 if(convertedNum == hard)
                 {
-                    return "Thats correct! You guessed it!";
+                    return $"Thats correct! You guessed it!\nThe number was {hard}!";
                 }else if(convertedNum > hard)
                 { 
-                    return "Woops! Looks like you guessed higher then you should have!.";
+                    return $"Woops! Looks like you guessed higher then you should have.\nThe number was {hard}.";
                 }else if(convertedNum < hard)
                 {  
-                    return "Oh dear! Looks like you guessed lower then you should have!";
+                    return $"Oh dear! Looks like you guessed lower then you should have!\nThe number was {hard}.";
                 }else
                 {
                     return "Honestly I'm impressed you got here.";

@@ -38,7 +38,7 @@ namespace SpacekKMCEightToTen.Controllers
 
         public string GuessItHard(string hardUserGuess)
         {
-            return _guessItService.GuessItMedium(hardUserGuess);
+            return _guessItService.GuessItHard(hardUserGuess);
         }
     }
 }
