@@ -9,4 +9,6 @@ Created a project with 5 endpoints and three controller and service files.
     Hard Mode 1-100
 3. 1 endpoint that takes an input and generates a Randomly Generated Restaurant based on the category chosen. 10 Restaurants per category.
 
-Reviewed by: 
+Reviewed by: Bronel Lazar
+
+Comments: Everything looks good and works well, the guess it is set up properly, the restaurant picker is good, and the 8ball works. only thing is in the guess it I would eliminate the unecessary elses with the retuurns of "Honestly I'm impressed you got here." since thats just never really going to do anything
