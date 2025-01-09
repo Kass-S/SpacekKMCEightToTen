@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using SpacekKMCEightToTen.Services;
 
 namespace SpacekKMCEightToTen.Controllers
 {
@@ -10,6 +11,18 @@ namespace SpacekKMCEightToTen.Controllers
     [Route("[controller]")]
     public class GuessItController : ControllerBase
     {
-        
+        private readonly GuessItService _guessItService;
+
+        public GuessItController(GuessItService guessItService){
+            _guessItService = guessItService;
+        }
+
+        [HttpGet]
+        [Route("Easy/{easyUserGuess}")]
+
+        public string GuessItEasy(string easyUserGuess)
+        {
+            return _guessItService.GuessItEasy(easyUserGuess);
+        }
     }
 }

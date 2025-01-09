@@ -7,7 +7,8 @@ namespace SpacekKMCEightToTen.Services
 {
     public class RestaurantService
     {
-        public string RestaurantPicker(string fastFoodPizzaFoodTruck){
+        public string RestaurantPicker(string fastFoodPizzaFoodTruck)
+        {
             string[] fastFoodArray = { "McDonalds", "Wendy's", "In-n-out", "Carl's Jr", "Raising Cain's", "Chick-fil-a", "Chipotle", "Jack in the Box", "Popeyes", "Sonic" };
             string[] pizzaArray = { "Dominos", "Mountain Mike's", "Eddie's Pizza", "Round Table", "Prime Pizza CA", "Pizza Castle", "Sam's Pizza & More", "Fresh Slice Pizza", "Pieology", "Blaze Pizza" };
             string[] foodTruckArray = { "Los Compadres", "Lonchera Hidalgo", "El Mayita", "Tacos Guadalajara", "Bienvenidos T. EL Grullense", "Nikki's Create-A-Bowl", "El Comal", "A Little Bit of Everything", "Braz Burger", "209 Charles Place" };

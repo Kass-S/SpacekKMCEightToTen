@@ -7,13 +7,15 @@ namespace SpacekKMCEightToTen.Services
 {
     public class EightBallService
     {
-        public string EightBall(string question){
+        public string EightBall(string question)
+        {
             Random rng = new Random();
             int magicRandom = rng.Next(1,9);
 
             string questionInput = question;
 
-            switch(magicRandom){
+            switch(magicRandom)
+            {
                 case 1:
                     return $"{questionInput}: Yes";
 
