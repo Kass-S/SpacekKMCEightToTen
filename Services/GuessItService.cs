@@ -22,22 +22,16 @@ namespace SpacekKMCEightToTen.Services
 
                 if(convertedNum > 10 || convertedNum < 1){
                     return "Whoa! That number is not between one and ten!";
-                }
-
-                if(convertedNum == easy)
+                }else if(convertedNum == easy)
                 {
                     return $"Thats correct! You guessed it!\nThe number was {easy}!";
                 }else if(convertedNum > easy)
                 { 
                     return $"Woops! Looks like you guessed higher then you should have!\nThe number was {easy}.";
-                }else if(convertedNum < easy)
+                }else
                 {  
                     return $"Oh dear! Looks like you guessed lower then you should have!\nThe number was {easy}.";
-                }else
-                {
-                    return "Honestly I'm impressed you got here.";
                 }
-
             }
         }
 
@@ -56,22 +50,16 @@ namespace SpacekKMCEightToTen.Services
 
                 if(convertedNum > 50 || convertedNum < 1){
                     return "Whoa! That number is not between one and fifty!";
-                }
-
-                if(convertedNum == medium)
+                }else if(convertedNum == medium)
                 {
                     return $"Thats correct! You guessed it!\nThe number was {medium}!";
                 }else if(convertedNum > medium)
                 { 
                     return $"Woops! Looks like you guessed higher then you should have!\nThe number was {medium}.";
-                }else if(convertedNum < medium)
+                }else
                 {  
                     return $"Oh dear! Looks like you guessed lower then you should have!\nThe number was {medium}.";
-                }else
-                {
-                    return "Honestly I'm impressed you got here.";
                 }
-
             }
         }
 
@@ -90,22 +78,16 @@ namespace SpacekKMCEightToTen.Services
 
                 if(convertedNum > 100 || convertedNum < 1){
                     return "Whoa! That number is not between one and one-hundred!";
-                }
-
-                if(convertedNum == hard)
+                }else if(convertedNum == hard)
                 {
                     return $"Thats correct! You guessed it!\nThe number was {hard}!";
                 }else if(convertedNum > hard)
                 { 
                     return $"Woops! Looks like you guessed higher then you should have.\nThe number was {hard}.";
-                }else if(convertedNum < hard)
+                }else
                 {  
                     return $"Oh dear! Looks like you guessed lower then you should have!\nThe number was {hard}.";
-                }else
-                {
-                    return "Honestly I'm impressed you got here.";
                 }
-
             }
         }
     }
