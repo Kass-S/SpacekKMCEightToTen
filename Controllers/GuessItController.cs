@@ -24,5 +24,21 @@ namespace SpacekKMCEightToTen.Controllers
         {
             return _guessItService.GuessItEasy(easyUserGuess);
         }
+
+        [HttpGet]
+        [Route("Medium/{mediumUserGuess}")]
+
+        public string GuessItMedium(string mediumUserGuess)
+        {
+            return _guessItService.GuessItMedium(mediumUserGuess);
+        }
+
+        [HttpGet]
+        [Route("Hard/{hardUserGuess}")]
+
+        public string GuessItHard(string hardUserGuess)
+        {
+            return _guessItService.GuessItMedium(hardUserGuess);
+        }
     }
 }
