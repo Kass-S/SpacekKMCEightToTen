@@ -1,0 +1,6 @@
+@SpacekKMCEightToTen_HostAddress = http://localhost:5116
+
+GET {{SpacekKMCEightToTen_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
